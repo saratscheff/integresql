@@ -617,7 +617,7 @@ We try to approximate local/test and live as close as possible, therefore using 
 
 ### Approach 3a: Isolation by templates
 
-We discovered that using [PostgreSQL templates](https://supabase.com/blog/2020/07/09/postgresql-templates) and creating the actual new test database from them is quite fast, let's to this:
+We discovered that using [PostgreSQL templates](https://supabase.com/blog/2020/07/09/postgresql-templates) and creating the actual new test database from them is quite fast, let's do this:
 
 * Test runner starts
 * Recreate a PostgreSQL template database
